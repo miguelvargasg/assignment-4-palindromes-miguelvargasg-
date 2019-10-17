@@ -1,5 +1,7 @@
-#Palindrom Module
+"""This module named palindrome"""
 from collections import deque
+
+"""This function named as is_palindrome, validate if input is palindrome"""
 def is_palindrome(p):
 
     md1 = deque(p)

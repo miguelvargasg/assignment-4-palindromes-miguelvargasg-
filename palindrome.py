@@ -10,8 +10,8 @@ def is_palindrome(inputpal):
     md2 = []
     md2 = deque(maxlen=len(md1))
 
-    for x in deque(md1):
-        md2.appendleft(x)
+    for valx in deque(md1):
+        md2.appendleft(valx)
 
 
     if type(inputpal) is not str:
